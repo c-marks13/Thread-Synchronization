@@ -36,3 +36,7 @@ To make sure that the synchronization was working I traced the output of a few d
 ## Known bugs and problem areas
 
 No known bugs and problem areas at the moment
+
+## Special Notes
+
+A few of the files were given to us by our professor to help solve the problem such as the support.c file and the semaphore_support file. These files were given to help assist us but also to help her grade and test the project as well.
