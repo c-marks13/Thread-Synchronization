@@ -39,4 +39,4 @@ No known bugs and problem areas at the moment
 
 ## Special Notes
 
-A few of the files were given to us by our professor to help solve the problem such as the support.c file and the semaphore_support file. These files were given to help assist us but also to help her grade and test the project as well.
+A few of the files were given to us by our professor to help solve the problem such as the support.c, semaphore_support.c, and the make file. These files were given to help assist us but also to help her grade and test the students project as well.
