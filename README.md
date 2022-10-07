@@ -10,7 +10,7 @@ Connor Marks
 
 ## Description:
 
-This is a program that solves and creates the most efficient solution to the intersection located in Smallville, WI. Threads are programmed as cars and semaphores are used to synchronize the intersection and make it as efficient as possible. The threads will approach from a random direction and have a destination direction. The threads (cars) will continue approaching and leaving the intersection as long as the program is alive. When they approach from the direction they wait for the proper semaphore to go through the intersection. Parameters for the program are gathered through the command line, that is how long the main thread lives and the number of cars (threads).
+This is a program that I wrote for my operating systems class and it solves and creates the most efficient solution to the intersection located in Smallville, WI. The intersection is a 4 way intersection and there is no stop signs and cars can enter the intersection as long as they do not crash into anoter car. Threads are programmed as cars and semaphores are used to synchronize the intersection and make it as efficient as possible. The threads will approach from a random direction and have a destination direction. The threads (cars) will continue approaching and leaving the intersection as long as the program is alive. When they approach from the direction they wait for the proper semaphore to go through the intersection. Parameters for the program are gathered through the command line, that is how long the main thread lives and the number of cars (threads).
 
 ## How to build the software
 
@@ -23,7 +23,6 @@ The included Makefile is used to build (compile and link) this software. It can 
 To use the software after building it, simply type ./stoplight followed by the set of parameters. All the parameters data types should be ints and in the following order:
 - Sleep Time: This parameter is how long the main thread will sleep and how long the cars will run through the intersection.
 - Number of Cars: The number of allocated threads (cars) that will be going/driving through the intersection
-
 
 ## How the software was tested
 
